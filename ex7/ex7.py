@@ -9,7 +9,7 @@ def parse():
     )
     parser.add_argument('keyword', help='keyword for search.')
     parser.add_argument('files_name', help='file(s) name')
-    parser.add_argument('addr', nargs='?', help='search range.[optional]')
+    parser.add_argument('-addr', help='search range.')
     parser.add_argument(
         '-escape',
         help='disable <regular> function',
